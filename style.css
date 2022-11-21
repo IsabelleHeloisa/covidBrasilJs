@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #131215;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 0px 2%;
+
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #E1E1E6;
+}
+
+.covidCases {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #121214;
+  color: #E1E1E6;
+  margin: .5em 0;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 177, 137);
+}
+
+
+
+#stateList {
+  width: 100%;
+  padding: 10px;
+  background: #121214;
+  margin: .5em 0;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 177, 137);
+  text-align: center;
+  color: #E1E1E6;
+}
+
+.titleState img {
+  width: 30px;
+  margin-top: 2rem;
+
+}
+
+.titleState span {
+  font-size: 20px;
+  color: #E1E1E6;
+}
+
+.covidCasesData {
+  display: flex;
+  justify-content: space-between;
+  color: #E1E1E6;
+  /* gap: 1rem; */
+}
