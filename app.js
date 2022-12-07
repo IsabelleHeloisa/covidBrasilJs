@@ -11,6 +11,10 @@ const getCountry = async () => {
     casesBrazil.innerHTML = await cases.data.confirmed + cases.data.deaths
     deathBrazil.innerHTML = await cases.data.deaths
     confirmedBrazil.innerHTML = await cases.data.confirmed
+    const covidCasesData = document.querySelector(".covidCases .covidCasesData")
+    covidCasesData.classList.remove("hide")
+    const loading = document.querySelector(".covidCases .loading")
+    loading.classList.add("hide")
   } catch (error) {
     console.error(error)
     alert("Não foi possível buscar os casos do país ")
@@ -41,6 +45,10 @@ const getStates = async () => {
         </div>
       </div>
       `
+      
+      listCovidByState.classList.remove("hide")
+      const loading = document.querySelector("#stateList .loading")
+      loading.classList.add("hide")
     });
 
     

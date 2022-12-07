@@ -14,7 +14,12 @@
     <h1>Covid-19</h1>
     <section class="covidCases">
       <h2>Covid no Brasil</h2>
-      <div class="covidCasesData">
+      <div class="loading">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_ykdoon9j.json" background="transparent"
+          speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+      </div>
+      <div class="covidCasesData hide">
         <h4><span id="casesBrazil"></span> Casos</h4>
         <h4><span id="deathBrazil"></span> Mortes</h4>
         <h4><span id="confirmedBrazil"></span> Confirmados</h4>
@@ -22,9 +27,13 @@
     </section>
     <section id="stateList">
       <h2>Casos de Covid-19 por estado brasileiro</h2>
+      <div class="loading">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_ykdoon9j.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+      <div id="listCovidByState" class="hide">
 
-      <div id="listCovidByState">
-        
       </div>
 
     </section>

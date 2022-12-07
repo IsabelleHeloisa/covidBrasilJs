@@ -9,6 +9,10 @@ body {
   background: #131215;
 }
 
+.hide {
+  display: none !important;
+}
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -46,6 +50,11 @@ h1 {
   border: 1px solid rgb(17, 177, 137);
   text-align: center;
   color: #E1E1E6;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
 }
 
 .titleState img {
